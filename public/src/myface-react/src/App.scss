@@ -1,0 +1,180 @@
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'sans-serif';
+$background-color: #252838;
+$text-align: center;
+$font-sizebody: 16px;
+$font-lineheightbody: 24px;
+$font-sizetitle: 32px;
+$font-lineheighttitle: 40px;
+$font-sizesubtitle: 24px;
+$font-lineheightsubtitle: 32px;
+$color:#dcdcdc;
+
+
+
+.bodyusers{
+  font-family: $font-family;
+  font-size: $font-sizebody;
+  background-color: $background-color;
+  color:$color
+}
+
+
+.profilebanner{
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+
+.profilebanner-coverpic{
+    
+  max-width: 1024px;
+  width:100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+.profilebanner-profilepic{
+  border-radius:50%; 
+  position: absolute; 
+  top: 410px; 
+  left: 100px;
+  width: 10%;
+}
+
+.profilebanner-text{
+  position:absolute;
+  top: 390px; 
+  left: 250px;
+  max-width: 1024px;
+  text-align: left;
+}
+.profilebanner-text-name{
+  font-weight: 600;
+  font-size: $font-sizesubtitle;
+  color:black;
+}
+
+.profilebanner-text-email{
+  font-weight: 300; 
+  color: #dcdcdc;
+  margin: 0px;
+}
+h2{
+    font-size: $font-sizesubtitle;
+    font-weight: 400;
+    max-width:1024px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px
+}
+.postlist{
+
+  display: flex;
+  justify-content: space-between; 
+  max-width:1024px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 0;
+
+}
+
+.postlist .postsuser{
+  background-color: #151820;
+  color: white;
+  margin-bottom: 48px;
+  list-style: none;
+  height: 400px;
+  width: calc((100% - (2 * 48px)) / 3);
+  text-align: left;
+   
+  .imagesuser{
+    width:100%;
+    height: 250px;
+    }
+  
+}
+
+.post-textbox{
+  padding: 15px;
+}
+
+/*For Posts Page*/
+
+.PostsPage{
+background-color: lightblue;
+ display:flex;
+ flex-direction: column;
+ margin:0px;
+}
+
+.posts{
+  list-style: none; 
+  text-align:center;
+  color:rgb(46, 3, 87);
+  .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height:500px;
+}
+}
+
+.posts p{
+font-size:$font-sizebody;
+}
+
+h1{
+  font-size:$font-sizetitle;
+}
+
+.nextprevious{
+  width:70px;
+  height:30px;
+}
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*/
